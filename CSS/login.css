@@ -1,16 +1,18 @@
 body{
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
+}
+
+.contenedor{
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+    gap: 50px;
+    margin-top: 50px;
 }
 
 .formulario{
     width: 350px;
-    padding: 25px;
+    padding: 20px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0px 0px 10px gray;
@@ -26,6 +28,11 @@ body{
     margin-bottom: 15px;
 }
 
-.campo input{
+.campo input,
+.campo textarea{
     padding: 8px;
+}
+
+textarea{
+    resize: none;
 }
